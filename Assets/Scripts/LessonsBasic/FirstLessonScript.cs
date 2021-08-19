@@ -7,17 +7,12 @@ namespace LessonsBasic//namespace objeleri gruplandýrmaya yarar
 {
     public class FirstLessonScript : MonoBehaviour// MonoBehaviour olduðunda objelere eklenebilir oluyor
     {
-
-        void Start()
-        {
-
-        }
-
-
-        void Update()
-        {
-
-        }
+        public float ondalikSayi = 0.05f;
+        [SerializeField] float ondalikSayi2;
+        private int tamSayi;
+        int tamSayi2;
+        bool richtigkeit = true;
+        [SerializeField] private Vector3 ucFloat = new Vector3(1,2,3);
     }
 }
 

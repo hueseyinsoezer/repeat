@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8947482ac3f3e0743b981ec33133e5f5, type: 3}
-  m_Name: RigidbodySettings_Default
+  m_Script: {fileID: 11500000, guid: 570cf9cbd8d457a42b76e4380acc038f, type: 3}
+  m_Name: CameraSettings_LocalPlayer
   m_EditorClassIdentifier: 
-  _jumpForce: {x: 0, y: 5, z: 0}
+  _rotationLerpSpeed: 5
+  _positionOffset: {x: 0, y: 2, z: -5}
+  _positionLerpSpeed: 5

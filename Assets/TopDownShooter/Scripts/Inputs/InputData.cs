@@ -10,6 +10,7 @@ namespace TopDownShooter.PlayerInput
     {
         public float Horizontal;
         public float Vertical;
+        public float Jump;
     }
 
 }

@@ -15,6 +15,7 @@ namespace LessonsBasic//namespace objeleri gruplandýrmaya yarar
         [SerializeField] private Vector3 ucFloat = new Vector3(1,2,3);
 
         public float MyProperty { get; private set; }// property: get seti kendimiz yönetebiliyoruz. 
+        //Scriptable Object'ler herhangi bir sahneye ihtiyaç duyulmadan ulaþýlabilir objelerden. Prefablar gibi.
     }
 }
 

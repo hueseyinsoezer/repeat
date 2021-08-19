@@ -135,8 +135,9 @@ GameObject:
   - component: {fileID: 460482122}
   - component: {fileID: 460482121}
   - component: {fileID: 460482120}
+  - component: {fileID: 460482123}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Cube_Slow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,6 +219,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460482118}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &460482123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460482118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc76ef4d2db24e34d8634cf2e93b2e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSettings: {fileID: 11400000, guid: 5b9aedbfb62e6444f937325abcac25fb, type: 2}
 --- !u!1 &536482162
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,8 +373,9 @@ GameObject:
   - component: {fileID: 826975531}
   - component: {fileID: 826975530}
   - component: {fileID: 826975529}
+  - component: {fileID: 826975532}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Cube_Fast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -442,6 +457,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826975527}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &826975532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826975527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc76ef4d2db24e34d8634cf2e93b2e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSettings: {fileID: 11400000, guid: dd6c040049d47214399415907c23843a, type: 2}
 --- !u!1 &959577980
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,8 +660,9 @@ GameObject:
   - component: {fileID: 971658928}
   - component: {fileID: 971658927}
   - component: {fileID: 971658926}
+  - component: {fileID: 971658929}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Cube_Fast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -715,6 +744,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971658924}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &971658929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971658924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc76ef4d2db24e34d8634cf2e93b2e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSettings: {fileID: 11400000, guid: dd6c040049d47214399415907c23843a, type: 2}
 --- !u!1 &1394088788
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,8 +769,9 @@ GameObject:
   - component: {fileID: 1394088792}
   - component: {fileID: 1394088791}
   - component: {fileID: 1394088790}
+  - component: {fileID: 1394088793}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Cube_Slow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -810,6 +853,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394088788}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1394088793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394088788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc76ef4d2db24e34d8634cf2e93b2e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSettings: {fileID: 11400000, guid: 5b9aedbfb62e6444f937325abcac25fb, type: 2}
 --- !u!1 &1477978742
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,7 +880,7 @@ GameObject:
   - component: {fileID: 1477978744}
   - component: {fileID: 1477978747}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Cube_Slow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -918,7 +974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc76ef4d2db24e34d8634cf2e93b2e6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 50
+  _rotateSettings: {fileID: 11400000, guid: 5b9aedbfb62e6444f937325abcac25fb, type: 2}
 --- !u!1 &2124544037
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,8 +987,9 @@ GameObject:
   - component: {fileID: 2124544041}
   - component: {fileID: 2124544040}
   - component: {fileID: 2124544039}
+  - component: {fileID: 2124544042}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Cube_Fast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1014,3 +1071,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124544037}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2124544042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124544037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc76ef4d2db24e34d8634cf2e93b2e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSettings: {fileID: 11400000, guid: dd6c040049d47214399415907c23843a, type: 2}

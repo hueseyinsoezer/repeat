@@ -13,6 +13,8 @@ namespace LessonsBasic//namespace objeleri gruplandýrmaya yarar
         int tamSayi2;
         bool richtigkeit = true;
         [SerializeField] private Vector3 ucFloat = new Vector3(1,2,3);
+
+        public float MyProperty { get; private set; }// property: get seti kendimiz yönetebiliyoruz. 
     }
 }
 
